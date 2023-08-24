@@ -1,0 +1,89 @@
+#frame{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border: 5px solid gray;
+    border-radius: 100%;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    z-index: 9999;
+
+
+
+}
+
+#frame>div{
+    width: calc(100%- 20px);
+    aspect-ratio: 1/1;
+    border: 10px solid orangered;
+    border-radius: 100%;
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+
+
+
+}
+section{
+    position: absolute;
+    width: fit-content;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
+
+section>div{
+    width: 180px;
+    aspect-ratio: 1/1;
+    background: deeppink;
+
+    border-radius: 100%;
+
+    /*margin-top: 315.4px;*/
+    /*margin-bottom: 315.4px;*/
+
+    margin: 235.5px 0px 235.5px 0px;
+    position: relative;
+
+
+}
+
+section>div:first-child{
+    background: purple;
+
+}
+section>div:nth-child(2){
+    background: dodgerblue;
+
+}
+section>div:nth-child(3){
+    background: orange;
+
+}
+
+section>div>span{
+    position: absolute;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+
+
+}
